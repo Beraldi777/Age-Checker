@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <main>
+        <section>
+            <h1>Verificador de Idade</h1>
+            <div id="nas">
+                <p>Ano de Nascimento:</p>
+                <input type="number" id="datanas" name="datanas">
+            </div>
+            <div id="sex">
+                <p id="sexp">Sexo:</p>
+                <input type="radio" id="mas" name="radsex" checked>
+                <label for="mas">Masculino</label>
+                <input type="radio" id="fem" name="radsex">
+                <label for="fem">Feminino</label>
+            </div>
+            <input type="button" id="sub" value="Verificar" onclick="verificar()">
+            <div id="msg">
+                <p id="mensagem">Preencha com os dados pedidos acima!!</p>
+            </div>
+            <div id="foto">
+                <img id="imagem" src="" alt="">
+            </div>
+            <h3 id="copy">&copy; — Beraldi</h3>
+        </section>
+    </main>
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>
